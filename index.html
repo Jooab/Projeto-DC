@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecione seu Personagem - Projeto DC</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/animations.css">
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <img class="logo" src="src/images/DC_Comics_logo.png" alt="DC Logo" class="logo">
+            <h1 class="title">Character Select</h1>
+        </header>
+        <div class="character-selection">
+
+            <div class="big-character character-player-1">
+                <img src="src/images/batman.png" alt="Player One Selected Character" id="player-1-character">
+                <div class="name">
+                    <h2 id="character-1-name">Batman</h2>
+                </div>
+            </div>
+
+            <ul class="character-list">
+                <li class="character selected" id="batman" data-name="Batman">
+                    <span class="tag">1P</span>
+                    <img src="src/images/batman-perfil.png" alt="Batman Character">
+                </li>
+
+                <li class="character" id="superman" data-name="Superman">
+                    <span class="tag">1P</span>
+                    <img src="src/images/superman-perfil.png" alt="Superman Character">
+                </li>
+
+                <li class="character" id="wonder-woman" data-name="Wonder Woman">
+                    <span class="tag">1P</span>
+                    <img src="src/images/wonder-woman-perfil.png" alt="Wonder Wonder Character">
+                </li>
+
+                <li class="character" id="flash" data-name="Flash">
+                    <span class="tag">1P</span>
+                    <img src="src/images/flash-perfil.png" alt="Flash Character">
+                </li>
+
+                <li class="character" id="green-lantern" data-name="Green Lantern">
+                    <span class="tag">1P</span>
+                    <img src="src/images/green-lantern-perfil.png" alt="Green Lantern Character">
+                </li>
+
+                <li class="character player-2-selected" id="darkseid" data-name="Darkseid">
+                    <span class="tag">2P</span>
+                    <img src="src/images/darkseid-perfil.png" alt="Darkseid Character">
+                </li>
+
+                <li class="character" id="shazam" data-name="Shazam">
+                    <span class="tag">1P</span>
+                    <img src="src/images/shazam-perfil.png" alt="Shazam Character">
+                </li>
+
+                <li class="character" id="joker" data-name="Joker">
+                    <span class="tag">1P</span>
+                    <img src="src/images/joker-perfil.png" alt="Joker Character">
+                </li>
+
+                <li class="character" id="harley-quinn" data-name="Harley Quinn">
+                    <span class="tag">1P</span>
+                    <img src="src/images/harley-quinn-perfil.png" alt="Harley Quinn Character">
+                </li>
+
+            </ul>
+
+            <div class="big-character character-player-2">
+                <img src="src/images/darkseid.png" alt="Player Two Selected Character" id="player-2-character">
+                <div class="name player-2">
+                    <h2>Darkseid</h2>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
